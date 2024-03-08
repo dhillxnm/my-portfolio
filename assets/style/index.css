@@ -1,10 +1,14 @@
 @import url(./reset.css);
 
+:root {
+    --black: rgb(0 0 0/0.5);
+}
 body {
     font-family: 'Nunito Sans', 'Open Sans', Arial, sans-serif;
     background-color: #f5f5f6;
     margin: 0;
     padding: 0;
+    height: 800px;
 }
 
 .container { 
@@ -12,3 +16,226 @@ body {
     margin-inline: auto;
 }
 
+
+.flex {
+    display: flex;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.center {
+    display: grid;
+    place-items: center;
+}
+
+
+.gap-20 {
+    gap: 20px;
+}
+
+/*---------------------------------------------------------------*/
+/*-----------------------------Header----------------------------*/
+/*---------------------------------------------------------------*/
+
+
+header .logo {
+    display: block;
+    flex: none;
+    float: left;
+    font-size: 1.5em;
+    line-height: normal;
+    margin-top: 10px;
+    text-decoration: none;
+    font-family: "Dancing Script", cursive;
+    color:#f293bc;
+}
+
+.grey-color {
+    color: rgb(60 60 60/ 0.4);
+}
+ 
+
+section {
+    padding: 65px 0 65px 0;
+}
+
+
+nav ul li {
+    line-height: 56px;
+    list-style: none;
+    cursor: default;
+}
+
+nav ul li a {
+    color: var(--black);
+    font-weight: 600;
+    font-size: 17px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: color 0.25s ease-in-out;
+}
+
+nav ul li a:hover {
+    color: #4e96ff;
+}
+
+nav ul li i {
+    display: none;
+    color: #fff;
+    font-size: 17px;
+}
+
+nav ul li:last-child {
+    display: none;
+}
+/*---------------------------------------------------------------*/
+/*-------------------Landing Page--------------------------------*/
+/*---------------------------------------------------------------*/
+
+.landing-page {
+    background: #fff url('../image/Watercolour\ Texture\ Background.jpeg') center center / cover no-repeat;
+    width: 100%;
+    position: relative;
+}
+
+.landing-page section {
+    height: 500px;   
+}
+
+/*-----------------------------------------------------------*/
+/*----------------------Emoji--------------------------------*/
+/*------------------------------------------------------------*/
+
+
+@keyframes vibration {
+    0% {
+      transform: translate(0);
+    }
+    20% {
+      transform: translate(-2px, -2px);
+    }
+    40% {
+      transform: translate(2px, 2px);
+    }
+    60% {
+      transform: translate(-2px, -2px);
+    }
+    80% {
+      transform: translate(2px, 2px);
+    }
+    100% {
+      transform: translate(0);
+    }
+}
+  
+
+.moving-emoji {
+    animation: vibration 0.8s infinite;
+}
+  
+
+.greeting-text {
+    font-size: 55px; 
+}
+  
+
+.greeting-text-p {
+    color:rgb(60 60 60/ 0.4);
+    font-weight: 600;
+    font-size: 25px;
+}
+
+   
+.social-media-div {
+    font-size: 2em;
+}
+
+
+.github i {
+    background-color: #333;
+}
+
+
+.icon-button i {
+    border-radius: 2.6rem;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 1.3rem;
+    height: 2.6rem;
+    line-height: 2.6rem;
+    margin: 0 5px 10px;
+    position: relative;
+    text-align: center;
+    transition: .2s ease-in;
+    -webkit-user-select: none;
+    user-select: none;
+    width: 2.6rem;
+}
+
+
+.linkedin i {
+    background-color: #0e76a8;
+}
+
+.google i {
+    background-color: #ea4335;
+}
+
+.facebook i {
+    background-color: #3b5998;
+}
+
+.instagram i {
+    background-color: #F706AB;
+}
+
+
+.animation {
+    width: 400px;
+    height: 500px;
+}
+
+
+
+@media (min-width: 270px) and (max-width: 380px) {
+    body {
+        height: 100vh;
+        width: 100%;
+    }
+    
+    .landing-page {
+        width: 200%;
+        font-size: 10px;
+    }
+
+    .container {
+        display: block;
+    }
+
+    .landing-page section {
+        height: 100%;
+    }
+
+    .greeting-text {
+        font-size: 53px;
+    }
+    
+}
+
+
+
+@media (min-width: 380px) and (max-width: 500px) {
+    body {
+        height: 100vh;
+        width: 100%;
+    }
+    
+    .landing-page {
+        width: 200%;
+        font-size: 10px;
+    } 
+
+}
