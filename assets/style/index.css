@@ -223,8 +223,15 @@ nav ul li:last-child {
 .skill {
     background-color: rgb(240, 240, 240);
 }
+
+
 .subTitle img {
     height: 10px;
+}
+
+.lang {
+    color: rgb(120, 120, 120);
+    font-size: 50px;
 }
 
 
