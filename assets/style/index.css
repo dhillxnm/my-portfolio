@@ -21,6 +21,10 @@ body {
     display: flex;
 }
 
+.space-evenly {
+    justify-content: space-evenly;
+}
+
 .space-between {
     justify-content: space-between;
 }
@@ -101,7 +105,7 @@ nav ul li:last-child {
 }
 
 .landing-page section {
-    height: 500px;   
+    height: 510px;   
 }
 
 /*-----------------------------------------------------------*/
@@ -196,6 +200,31 @@ nav ul li:last-child {
 .animation {
     width: 400px;
     height: 500px;
+}
+
+
+/*------------------------------------------------*/
+/*-----------------Education----------------------*/
+/*------------------------------------------------*/
+
+.mitt {
+    margin-bottom: 3%;
+}
+
+.institute img {
+    border-radius: 90px;
+}
+
+
+/*------------------------------------------------*/
+/*-----------------skill--------------------------*/
+/*------------------------------------------------*/
+
+.skill {
+    background-color: rgb(240, 240, 240);
+}
+.subTitle img {
+    height: 10px;
 }
 
 
