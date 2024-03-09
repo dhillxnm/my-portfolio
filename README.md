@@ -10,7 +10,7 @@
 
 -contact me
 
-To veiw the live Demo click [here](https://dhillxnm.github.io/myportfolio/)
+To veiw the live Demo click [here](https://dhillxnm.github.io/my-portfolio/)
 
 ## Using Emojis
 
@@ -52,4 +52,4 @@ For adding emoji 😃 into the texts in Portfolio.js, use the emoji() function a
 
 9. Push your local commits to GitHub: Finally, push your local commits to the remote repository on GitHub using the command git push -u origin main (replace "main" with the branch name if it's different).
 
-Live Demo: click [here](https://dhillxnm.github.io/myportfolio/)
+Live Demo: click [here](https://dhillxnm.github.io/my-portfolio/)
