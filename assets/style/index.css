@@ -3,6 +3,8 @@
 :root {
     --black: rgb(0 0 0/0.5);
 }
+
+
 body {
     font-family: 'Nunito Sans', 'Open Sans', Arial, sans-serif;
     background-color: #f5f5f6;
@@ -10,6 +12,7 @@ body {
     padding: 0;
     height: 800px;
 }
+
 
 .container { 
     width: min(100% - 30px, 1080px);
@@ -21,13 +24,16 @@ body {
     display: flex;
 }
 
+
 .space-evenly {
     justify-content: space-evenly;
 }
 
+
 .space-between {
     justify-content: space-between;
 }
+
 
 .center {
     display: grid;
@@ -39,9 +45,11 @@ body {
     gap: 20px;
 }
 
+
 /*---------------------------------------------------------------*/
 /*-----------------------------Header----------------------------*/
 /*---------------------------------------------------------------*/
+
 
 
 header .logo {
@@ -55,6 +63,7 @@ header .logo {
     font-family: "Dancing Script", cursive;
     color:#f293bc;
 }
+
 
 .grey-color {
     color: rgb(60 60 60/ 0.4);
@@ -72,6 +81,7 @@ nav ul li {
     cursor: default;
 }
 
+
 nav ul li a {
     color: var(--black);
     font-weight: 600;
@@ -81,13 +91,16 @@ nav ul li a {
     transition: color 0.25s ease-in-out;
 }
 
+
 nav ul li a:hover {
     color: #4e96ff;
 }
 
+
 /*---------------------------------------------------------------*/
 /*-------------------Landing Page--------------------------------*/
 /*---------------------------------------------------------------*/
+
 
 .landing-page {
     background: #fff url('../image/Watercolour\ Texture\ Background.jpeg') center center / cover no-repeat;
@@ -95,9 +108,11 @@ nav ul li a:hover {
     position: relative;
 }
 
+
 .landing-page section {
     height: 510px;   
 }
+
 
 /*-----------------------------------------------------------*/
 /*----------------------Emoji--------------------------------*/
@@ -175,13 +190,16 @@ nav ul li a:hover {
     background-color: #0e76a8;
 }
 
+
 .google i {
     background-color: #ea4335;
 }
 
+
 .facebook i {
     background-color: #3b5998;
 }
+
 
 .instagram i {
     background-color: #F706AB;
@@ -198,22 +216,28 @@ nav ul li a:hover {
 /*-----------------Education----------------------*/
 /*------------------------------------------------*/
 
+
 .education h2 {
     font-size: 30px;
     font-weight: 700;
 }
 
+
 .education a {
     text-decoration: none;
     color: #4e96ff;
 } 
+
+
 .mitt {
     margin-bottom: 3%;
 }
 
+
 .education span {
     font-weight: 900;
 }
+
 
 .institute img {
     border-radius: 90px;
@@ -229,6 +253,7 @@ nav ul li a:hover {
     background-color: rgb(240, 240, 240);
 }
 
+
 .skill img {
     position: relative;
 }
@@ -238,24 +263,29 @@ nav ul li a:hover {
     width: 20px;
 } 
 
+
 .skill span {
     color: rgb(120, 120, 120);
     text-transform: uppercase;
 }
+
 
 .skill b {
     text-transform: uppercase;
     color: rgb(60 60 60/0.5);
 }
 
+
 .lang {
     color: rgb(120, 120, 120);
     font-size: 50px;
 }
 
+
 .lang:hover {
     color:#0e76a8;
 }
+
 
 /*------------------------------------------------*/
 /*-----------------footer------------------------*/
@@ -266,11 +296,15 @@ footer {
     padding: 20px;
 }
 
+
 footer a {
     text-decoration: none;
     color: #4e96ff;
 }
 
+/*------------------------------------------------*/
+/*-----------------Media-queries-------------------*/
+/*------------------------------------------------*/
 
 
 @media (min-width: 270px) and (max-width: 380px) {
@@ -404,6 +438,7 @@ footer a {
         padding: 20px;
     }
 }
+
 
 
 @media (min-width: 670px) and (max-width: 800px) {
