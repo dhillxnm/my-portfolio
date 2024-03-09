@@ -2,54 +2,29 @@
 
 ## Portfolio Sections
 
--Summary
--My education
--About me
--contact me
+## -Summary
 
-To veiw the live link click [here](http://127.0.0.1:5501/my-portfolio/index.html)
+## -My education
+
+## -About me
+
+## -contact me
+
+To veiw the live Demo click [here](http://127.0.0.1:5501/my-portfolio/index.html)
 
 ## Using Emojis
 
 For adding emoji 😃 into the texts in Portfolio.js, use the emoji() function and pass the text you need as an argument. This would help in keeping emojis compatible across different browsers and platforms.
 
+## My social media links
+
 ```html
 <div class="social-media-div">
-  <a
-    href="https://github.com/dhillxnm"
-    class="icon-button github"
-    target="_blank"
-    rel="noopener noreferrer"
-    ><i class="fab fa-github"></i><span></span
-  ></a>
-  <a
-    href="https://ca.linkedin.com/in/manpreet-kaur-7953702b8 "
-    class="icon-button linkedin"
-    target="_blank"
-    rel="noopener noreferrer"
-    ><i class="fab fa-linkedin-in"></i><span></span
-  ></a>
-  <a
-    href="mailto:hcmanpreet2005@gmail.com@gmail.com"
-    class="icon-button google"
-    target="_blank"
-    rel="noopener noreferrer"
-    ><i class="fas fa-envelope"></i><span></span
-  ></a>
-  <a
-    href="#"
-    class="icon-button facebook"
-    target="_blank"
-    rel="noopener noreferrer"
-    ><i class="fab fa-facebook-f"></i><span></span
-  ></a>
-  <a
-    href="https://www.instagram.com/dhillxn_mn/"
-    class="icon-button instagram"
-    target="_blank"
-    rel="noopener noreferrer"
-    ><i class="fa-brands fa-instagram"></i><span></span
-  ></a>
+  <a href="https://github.com/dhillxnm"></a>
+  <a href="https://ca.linkedin.com/in/manpreet-kaur-7953702b8 "></a>
+  <a href="mailto:hcmanpreet2005@gmail.com@gmail.com"></a>
+
+  <a href="https://www.instagram.com/dhillxn_mn/"></a>
 </div>
 ```
 
@@ -77,4 +52,4 @@ For adding emoji 😃 into the texts in Portfolio.js, use the emoji() function a
 
 9. Push your local commits to GitHub: Finally, push your local commits to the remote repository on GitHub using the command git push -u origin main (replace "main" with the branch name if it's different).
 
-click [here](http://127.0.0.1:5501/my-portfolio/index.html)
+Live Demo: click [here](http://127.0.0.1:5501/my-portfolio/index.html)
