@@ -92,6 +92,11 @@ nav ul li a {
 }
 
 
+nav ul li:last-child {
+    display: none;
+}
+
+
 nav ul li a:hover {
     color: #4e96ff;
 }
@@ -112,6 +117,12 @@ nav ul li a:hover {
 .landing-page section {
     height: 510px;   
 }
+
+.animation {
+    background-image: url("https://media.tenor.com/I3RjM4xQO0kAAAAi/monitors-typing.gif");
+    background-size: 100% 80%;
+    background-repeat: no-repeat;
+  }
 
 
 /*-----------------------------------------------------------*/
@@ -184,6 +195,10 @@ nav ul li a:hover {
     user-select: none;
     width: 2.6rem;
 }
+
+ .icon-button i:hover {
+    color: rgb(0 0 255/0.1);
+} 
 
 
 .linkedin i {
@@ -315,7 +330,7 @@ footer a {
     }
     
     .landing-page {
-        width: 200%;
+        width: 230%;
         font-size: 10px;
     }
 
@@ -358,17 +373,35 @@ footer a {
         display: none;
     }
 
+    
+    nav ul li:last-child { 
+        display: block;
+    }
+
+      
+    nav ul li i {
+    position: absolute;
+    right: 13px;
+    top: 21px;
+    }
+
+
     .skill {
-        width: 200%;
+        width: 230%;
     }
 
     #contact {
-        width: 200%;
+        width: 230%;
         text-align: center;
     }
 
+    .animation {
+        display: grid;
+        place-items: center;
+    }
+
     footer {
-        width: 200%;
+        width: 230%;
         padding: 20px;
     }
 }
@@ -383,7 +416,7 @@ footer a {
     }
     
     .landing-page {
-        width: 200%;
+        width: 230%;
         font-size: 10px;
     }
 
@@ -403,38 +436,25 @@ footer a {
     .container.gap-20 {
         width: 200%;
     }
-
-    .gap-20 {
-        gap: 190px;
-    }
     
 
     .container.gap-20  h2 {
         text-align: center;
     }
 
-  
-    nav ul li a {
-        display: none;
-    }
-
-
-    nav ul li i {
-       color: rgb(60, 60, 60);
-    }
 
     
     .skill {
-        width: 200%;
+        width: 230%;
     }
 
     #contact {
-        width: 200%;
+        width: 230%;
         text-align: center;
     }
 
     footer {
-        width: 200%;
+        width: 230%;
         padding: 20px;
     }
 }
@@ -449,7 +469,7 @@ footer a {
     }
     
     .landing-page {
-        width: 200%;
+        width: 230%;
         font-size: 10px;
     }
 
@@ -475,27 +495,19 @@ footer a {
         text-align: center;
     }
 
-    nav ul li a {
-        display: none;
-        color: #F706AB;
-    }
-
-    nav ul li i {
-        display: none;
-    }
-
     
     .skill {
         width: 200%;
     }
 
     #contact {
-        width: 200%;
+        width: 230%;
         text-align: center;
     }
 
     footer {
-        width: 200%;
+        width: 230%;
         padding: 20px;
     }
 }
+
